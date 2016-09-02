@@ -1,0 +1,1333 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+  
+<head>
+    <title>Wi-Jungle</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Wi-Jungle" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=1020" />
+    <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    
+    
+    <script src="js/jquery/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery/jquery.color.js"></script>
+    <script src="js/jquery/jquery.easing.1.3.js"></script>
+    <script src="js/jquery/jquery.transform-0.9.3-jq1.8fix.js"></script>
+    <script src="js/modernizr/modernizr.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22231731-5']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<script type="text/javascript">
+    function ShowImage(src)
+    {
+        var img = document.getElementById('popupImage');
+        var div = document.getElementById('popup');
+        img.src = src;
+        div.style.display = "block";
+    }
+    function HideImage()
+    {
+        document.getElementById('popup').style.display = "none";
+    }
+</script>
+ 
+ <style>
+  .pop-up {
+     height: 200px;
+     width: 100px;
+     margin-left: 560px;
+     margin-top: 10px;
+
+
+ display:none;
+  }
+
+ .cloud img12 {
+      /*change the width and height to match button.jpg's*/
+      
+  background-color:white;
+  width:50px;
+      height:50px;
+      display:block;
+  }
+</style>
+    <script src="js/j.js"></script>
+	<style>
+	#box0{font-family:Arial, Helvetica, sans-serif;background-color:#c3ffc4;border-radius:10px;border:1px solid #999;padding:10px;}
+	</style>
+  </head>
+  <body  onload="setup();">
+    <script>
+      new Main();
+    </script>
+
+    
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "../connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="preloaderHiddenData">Wi-Jungle</div>
+
+    <div class="devTools">
+      <div class="generate">
+        generate order <span id="selectedImage"></span>
+      </div>
+      <div class="togglePage2Layer3">
+        toggle page2 layer3
+      </div>
+      <div class="testSpeedAll">
+        test speed all (<span class="lastResult"></span>)
+      </div>
+    </div>
+
+    <div class="page page0">
+
+      <div class="pageCenter">
+        
+ 
+        
+
+        <div class="layer ufo">
+          <img src="images/page1/cloud-small-rhs.gif" />
+         
+        </div>
+
+        <div class="layer logo">
+          <video autoplay><source src="images/logos0.mp4" /></video>
+          <img class="loading" src="images/page0/loading.gif" style="visibility:hidden"/>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="page page1">
+
+      <div class="layer background">
+        <div class="shape"></div>
+      </div>
+
+      <div class="pageCenter">
+
+        <div class="layer robbo">
+          <!--img class="armRight" src="images/page1/" />
+          <img class="armLeft" src="images/page1/" /-->
+          <img class="body" src="images/think.png" />
+          <!--img class="body" src="images/page1/cloud-small-lhs.gif" /-->
+        </div>
+
+        <div class="layer header">
+          <div class="column columnLeft">
+            <a href="#home">
+              <div class="logoContainer">
+                <div class="logo out">
+                  <div class="head"><img src="images/logos.png"></div>
+                  <div class="boyCoy"></div>
+                </div>
+                <div class="logo over">
+                  <div class="head"><img src="images/logos.png"></div>
+                  <div class="boyCoy"></div>
+                </div>
+                <div class="logo shape">
+                </div>
+              </div>
+            </a>
+            <div class="line"></div>
+          </div>
+          <div class="column columnCenter">
+          </div>
+          <div class="column columnRight">
+            <div id="page1_menus" class="menus">
+
+              <a href="#home">
+               <div class="menu home">
+                <div class="type normal">
+                  <div class="background">
+                  </div>
+                  <div class="menuContent">
+                    <img src="images/home_black.png" />
+                  </div>
+                </div>
+                 <div class="type over">
+                   <div class="background">
+                   </div>
+                   <div class="menuContent">
+                     <img src="images/home_red.png" />
+                   </div>
+                 </div>
+                 <div class="type selected">
+                   <div class="background">
+                     <img class="stick" src="images/menu/indicator_home.png"/>
+                   </div>
+                   <div class="menuContent">
+                     <img src="images/home_red.png" />
+                   </div>
+                 </div>
+                 <div class="type shape">
+                 </div>
+               </div>
+              </a>
+
+              <a href="#apps">
+               <div class="menu apps">
+                 <div class="type normal">
+                  <div class="background">
+                  </div>
+                  <div class="menuContent">
+                    HELLO
+                  </div>
+                 </div>
+                 <div class="type over">
+                   <div class="background">
+                   </div>
+                   <div class="menuContent">
+                   HELLO
+                   </div>
+                 </div>
+                 <div class="type selected">
+                   <div class="background">
+                     <img class="stick" src="images/menu/indicator_other.png" style="zoom: 1;" />
+                   </div>
+                   <div class="menuContent">
+                     HELLO
+                   </div>
+                 </div>
+                 <div class="type shape">
+                 </div>
+               </div>
+              </a>
+
+              <a href="#about">
+               <div class="menu about">
+                 <div class="type normal">
+                  <div class="background">
+                  </div>
+                  <div class="menuContent">
+                    ABOUT
+                  </div>
+                 </div>
+                 <div class="type over">
+                   <div class="background">
+                   </div>
+                   <div class="menuContent">
+                     ABOUT
+                   </div>
+                 </div>
+                 <div class="type selected">
+                   <div class="background">
+                     <img class="stick" src="images/menu/indicator_other.png"/>
+                   </div>
+                   <div class="menuContent">
+                     ABOUT
+                   </div>
+                 </div>
+                 <div class="type shape">
+                 </div>
+               </div>
+              </a>
+
+              <a href="#contact">
+               <div class="menu contact">
+                 <div class="type normal">
+                  <div class="background">
+                  </div>
+                  <div class="menuContent">
+                    CONTACT
+                  </div>
+                 </div>
+                 <div class="type over">
+                   <div class="background">
+                   </div>
+                   <div class="menuContent">
+                     CONTACT
+                   </div>
+                 </div>
+                 <div class="type selected">
+                   <div class="background">
+                     <img class="stick" src="images/menu/indicator_other.png"/>
+                   </div>
+                   <div class="menuContent">
+                     CONTACT
+                   </div>
+                 </div>
+                 <div class="type shape">
+                 </div>
+               </div>
+
+              </a>
+            </div>
+            <div class="line"></div>
+          </div>
+        </div>
+
+        <div class="layer main mainLeft">
+          <div class="hello">
+            <div class="textHello">Internet For ALL! </div>
+            <div class="textDescription">Wi-Jungle is a product of <a href="http://httpcart.com" style="color:#dcddcd">Httpcart</a>. Our motto is to convert hi-fi cities to wifi one.</div>
+            <div class="contactWrapper">
+             <a href="#contact">
+               <span class="contact linkify">
+                 <span class="text">Contact</span>
+                 <span class="image">
+                   <img class="out" src="images/arrow_yellow.png" /><img class="over" src="images/arrow_white.png" />
+                 </span>
+               </span>
+             </a>
+             <img class="txtNeed" src="images/page1/txt_need.png" />
+            </div>
+          </div>
+        </div>
+        <div class="layer main mainRight">
+          
+          <div><img class="slice2" src="images/page1/cloud-small-rhs.gif" /></div>
+          <div><img class="slice1" src="images/page1/cloud-small-rhs.gif" /></div>
+         
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="page page2">
+
+      <div class="layer background">
+	  
+        <div class="clouds2"></div>
+		
+<img class="cloud img10" src="images/clouds/10.png"/>
+        
+		 <div class="clouds1">
+          <div class="pageCenter">
+		  <img class="cloud img9" src="images/clouds/9.png" />
+          <!--img class="cloud img1" src="images/clouds/1.png" />
+          <img class="cloud img2" src="images/clouds/2.png" />
+          <img class="cloud img4" src="images/clouds/4.png" />
+          <img class="cloud img5" src="images/clouds/5.png" /-->
+          </div>
+        </div>
+      </div>
+
+      <div class="layer clouds3">
+        <div class="pageCenter">
+        
+        <img class="cloud img7" src="images/clouds/7.png" />
+        
+        <img class="cloud img11" src="images/clouds/11.png" />
+       <img class="cloud img2" src="images/clouds/2.png" />
+        <img class="cloud img14" src="images/clouds/14.png" />
+		<img class="cloud img1" src="images/clouds/1.png" />
+        <img class="cloud img16" src="images/clouds/16.png" />
+        
+		</div>
+      </div>
+
+      <div class="pageCenter">
+
+      <div class="layer clouds4">
+	  <img class="cloud img6" src="images/clouds/6.png"/>
+        <img class="cloud img8" src="images/clouds/8.png" />
+		
+        <img class="cloud img17" src="images/clouds/17.png" />
+		 <img class="cloud img12" src="images/clouds/12.png" onmouseover="javascript:ShowImage('images/clouds/12.png')" onmouseout="javascript:HideImage()"/>
+        <img class="cloud img13" src="images/clouds/13.png" />
+		<img class="cloud img15" src="images/clouds/15.png"  />
+      <div id="popup" class="pop-up">
+   <div id="popupImage" alt="Popup image">hi edsfasef faesfesaefewsf.</div> 
+</div>
+	  </div>
+		
+        <div class="pageContent">
+
+           <div class="layer main mainCenter">
+            <div class="floatingTv">
+              <!--div class="baloons">
+                <div class="baloon baloonLeft">
+                  <img src="images/page2/baloon_left.png" />
+                </div>
+                <div class="baloon baloonRight">
+                  <img src="images/page2/baloon_right.png" />
+                </div>
+                <div class="baloon baloonCenter">
+                  <img src="images/page2/baloon_center.png" />
+                </div>
+              </div-->
+              <div class="tvScreen">
+                <img src="images/page2/tv_screen.png" />
+                <!--img class="rating" src="images/page2/badge_5stars.png" /-->
+                <div class="screenshotsFrame">
+                  <div class="screenshots">
+                    <img src="images/page2/1.jpg" />
+                    <img src="images/page2/2.jpg" />
+                    <img src="images/page2/3.jpg" />
+                    <img src="images/page2/4.jpg" />
+                    <img src="images/page2/5.jpg" />
+                    
+                    
+                  </div>
+                  <div class="button previous">
+                    <div class="visibleShape"></div>
+                  </div>
+                  <div class="button next">
+                    <div class="visibleShape"></div>
+                  </div>
+                </div>
+                <!--div class="indicators">
+                  <div class="indicator">
+                    <div class="centerWrapper">
+                      <div class="center">
+                        <img src="images/page2/indicator_on.png" />
+                        <img src="images/page2/indicator_off.png" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="indicator">
+                    <div class="centerWrapper">
+                      <div class="center">
+                        <img src="images/page2/indicator_on.png" />
+                        <img src="images/page2/indicator_off.png" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="indicator">
+                    <div class="centerWrapper">
+                      <div class="center">
+                        <img src="images/page2/indicator_on.png" />
+                        <img src="images/page2/indicator_off.png" />
+                      </div>
+                    </div>
+                  </div>
+                </div-->
+				
+				<br><br><br>
+              </div>
+            </div>
+            <img class="description" src="images/page2/description.png" />
+          </div>
+
+          <!--div class="layer main mainLeft">
+            <img class="app" src="images/page2/powerbubble/app.png">
+            <a href="" target="_blank">
+              <div class="download">
+                <img class="out" src="images/page2/download.png" />
+                <img class="over" src="images/page2/download_over.png" />
+                <div class="shape"></div>
+              </div>
+              <img class="freeDownload" src="images/page2/free_download.png">
+            </a>
+          </div-->
+
+          <div class="layer main mainRight">
+            <div class="header">
+              User reviews
+            </div>
+            <div class="testimonials">
+              <img class="gradientTop" src="images/page2/gradient_top.png">
+              <div class="testimonial">
+                <div class="quote">
+                  <img src="images/page2/testimonials.png" />
+                </div>
+                <div class="text">Free wifi at my office place..!! Thanks Wi-Jungle.
+                  <img src="images/page2/caricature1.png">
+				  
+                </div>
+              </div>
+              <div class="testimonial">
+                <div class="quote">
+                  <img src="images/page2/testimonials.png" />
+                </div>
+                <div class="text">
+                  Now I can enjoy by surfing net at my school playground.  
+                   <img src="images/page2/caricature2.png">
+                  
+                </div>
+              </div>
+             
+              <div class="testimonial">
+                <div class="quote">
+                  <img src="images/page2/testimonials.png" />
+                </div>
+                <div class="text">A good party has three things. Girls, beer, and FREE WIFI.
+                  <img src="images/page2/caricature4.png">
+				  
+                </div>
+              </div>
+              <div class="testimonial">
+                <div class="quote">
+                  <img src="images/page2/testimonials.png" />
+                </div>
+                <div class="text">Now I can take rest by using free wifi at my court.
+                  <img src="images/page2/caricature5.png">
+				  
+                </div>
+              </div>
+              
+              <img class="gradientBottom" src="images/page2/gradient_bottom.png">
+            </div>
+
+          </div>
+		
+          <div class="layer header">
+            <div class="column columnLeft">
+                   <a href="#home">
+                <div class="logoContainer">
+                  <div class="logo out">
+                    <div class="head"><img src="images/logos.png"></div>
+                    <div class="boyCoy"></div>
+                  </div>
+                  <div class="logo over">
+                    <div class="head"><img src="images/logos.png"></div>
+                    <div class="boyCoy"></div>
+                  </div>
+                  <div class="logo shape">
+                  </div>
+                </div>
+              </a>
+             
+            </div>
+            <div class="column columnCenter">
+            </div>
+            <div class="column columnRight">
+              <div id="page2_menus" class="menus">
+
+                <a href="#home">
+                  <div class="menu home">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_black.png" />
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_black.png" />
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_home.png"/>
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_white.png" />
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#apps">
+                  <div class="menu apps">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#about">
+                  <div class="menu about">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#contact">
+                  <div class="menu contact">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="page page3">
+	
+      <div class="layer background">
+        <div class="mountains3">
+		<br><br><br><br><br><br><br><br><br>
+          <!--img class="mountainsFlag" src="images/page3/heli.gif" /-->
+          <div class="mountainsBackground"></div>
+        </div>
+      </div>
+
+    <div class="layer mountains1">
+        <div class="pageCenter">
+		
+        <!--img class="mountain8" src="images/page3/mountains/8.png" />
+      <img class="mountain9" src="images/page3/city-bg.png" /-->
+	  
+     
+         <!--img class="mountain9" src="images/page3/mountains/oasis.png" /-->
+ <img class="mountain8" src="images/page3/mountains/camel.png" />
+	<img class="mountain9" src="images/page3/mountains/oasis1.png" />
+	<img class="mountain12" src="images/page3/mountains/oasis1.png" />
+		  
+	<img class="mountain13" src="images/page3/mountains/oasis2.png" />
+		  
+         <img class="mountain10" src="images/page3/mountains/aunty.png" />
+
+         <img class="mountain11" src="images/page3/mountains/aunty.png" />
+      </div>
+    </div>
+
+      <div class="pageCenter">
+
+        <div class="layer mountains2" >
+		<!--img class="mountain30" src="images/page3/mountains/bgd1.png" />
+          <!--img class="mountain1" src="images/page3/man1.png" />
+		   <img class="mountain2" src="images/page3/man1.png" />
+		   <img class="mountain3" src="images/page3/food.gif" />
+		   <img class="mountain21" src="images/page3/food.gif" />
+		   <img class="mountain22" src="images/page3/food.gif" />
+		   <img class="mountain23" src="images/page3/food.gif" />
+		    <img class="mountain25" src="images/page3/food.gif" />
+		   <img class="mountain26" src="images/page3/food.gif" />
+		   <img class="mountain27" src="images/page3/food.gif" />
+		   <!--img class="mountain24" src="images/page3/food.gif" />
+<!--img class="mountain1" src="images/page3/city-bg1.png" /><img class="mountain2" src="images/page3/city-bg1.png" />
+<!--img class="mountain3" src="images/city-fg.png" />
+          <!--img class="mountain2" src="images/page3/mountains/2.png" />
+          <img class="mountain3" src="images/page3/mountains/3.png" />
+          <img class="mountain4" src="images/page3/mountains/4.png" /-->
+      <!--img class="mountain6" src="images/page3/mountains/5.png" />
+      <img class="mountain7" src="images/page3/mountains/5.png" /-->
+      <img class="mountain3" src="images/page3/mountains/sanddunes.png" />
+ 
+        </div>
+
+              <div class="pageContent">
+
+          <div class="layer main mainCenter">
+          <img src="images/page3/wij.jpg" style="width:300px;height:450px">
+          </div>
+
+         
+			<div class="layer main mainRight">
+            <div class="header">
+            OUR PARTNERS
+            </div>
+            <div class="description">
+              We are in the business for over 1 year. Our team members had pleasure to create for following brands in the past. 
+            </div>
+            <img class="logos" src="images/page3/1.png" />
+            <a href="#contact">
+              <div class="letsWork linkify">
+                <span class="text">Let's work together</span>
+                <span class="image">
+                  <img class="out" src="images/page3/arrow_green.png" /><img class="over" src="images/arrow_white.png" />
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="layer main mainLeft paperWhite">
+            <div class="paperContent">
+              <img src="images/page3/paper_white.png" />
+              <div class="text">
+                <div class="header">
+                Meet Wi-Jungle
+                </div>
+                Our motto is to convert hi-fi cities to wifi one. We are trying to provide Free wifi.  We are making an effort to increase the reach of internet through this free wifi model
+              </div>
+            </div>
+          </div>
+
+          <div class="layer main mainLeft paperYellow">
+			<div class="paperContent">
+              <img src="images/page3/paper_yellow.png" />
+				<div class="wi">
+				Wi-Jungle TEAM
+				</div>
+              <div class="ad">
+                Praveen Gupta
+                <a href="http://www.linkedin.com/" target="_blank">
+                  <div class="linkedin">
+                    <div class="out"></div>
+                    <div class="over"></div>
+                    <div class="shape"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="jb">
+                <a href="http://www.linkedin.com/" target="_blank">
+                  <div class="linkedin">
+                    <div class="out"></div>
+                    <div class="over"></div>
+                    <div class="shape"></div>
+                  </div>
+                </a>
+                Karmesh Gupta
+              </div>
+            </div>
+		  </div>
+
+          <div class="layer header">
+            <div class="column columnLeft">
+              <a href="#home">
+              <div class="logoContainer">
+                <div class="logo out">
+                  <div class="head"><img src="images/logos.png"></div>
+                  <div class="boyCoy"></div>
+                </div>
+                <div class="logo over">
+                  <div class="head"><img src="images/logos.png"></div>
+                  <div class="boyCoy"></div>
+                </div>
+                <div class="logo shape">
+                </div>
+              </div>
+            </a>
+              <div class="line"></div>
+            </div>
+            <div class="column columnCenter">
+            </div>
+            <div class="column columnRight">
+              <div id="page3_menus" class="menus">
+
+                <a href="#home">
+                  <div class="menu home">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_grey.png" />
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_brown.png" />
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_home.png"/>
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_brown.png" />
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#apps">
+                  <div class="menu apps">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#about">
+                  <div class="menu about">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#contact">
+                  <div class="menu contact">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="page page4">
+      <div class="layer background3">
+        <div class="shape">
+          <div class="waveContainer">
+            <div id="wave3" class="wave"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="layer background2">
+        <div class="shape">
+          <div class="waveContainer">
+          <div id="wave2" class="wave"> <!--img src="images/page3/walking-man-icon.png"-->
+</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="layer background1">
+        <div class="shape">
+          <div class="waveContainer">
+            <div id="wave1" class="wave"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pageCenter">
+
+        <div class="pageContent">
+
+          <div class="layer header">
+            <div class="column columnLeft">
+              <a href="#home">
+                <div class="logoContainer">
+                  <div class="logo out">
+                    <div class="head"><img src="images/logos.png"></div>
+                    <div class="boyCoy"></div>
+                  </div>
+                </div>
+              </a>
+              <div class="line"></div>
+            </div>
+            <div class="column columnCenter">
+            </div>
+            <div class="column columnRight">
+              <div id="page4_menus" class="menus">
+
+                <a href="#home">
+                  <div class="menu home">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_grey.png" />
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_black.png" />
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_black_home.png"/>
+                      </div>
+                      <div class="menuContent">
+                        <img src="images/home_grey.png" />
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#apps">
+                  <div class="menu apps">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                       HELLO
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_black_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        HELLO
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#about">
+                  <div class="menu about">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_black_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        ABOUT
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#contact">
+                  <div class="menu contact">
+                    <div class="type normal">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type over">
+                      <div class="background">
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type selected">
+                      <div class="background">
+                        <img class="stick" src="images/menu/indicator_black_other.png"/>
+                      </div>
+                      <div class="menuContent">
+                        CONTACT
+                      </div>
+                    </div>
+                    <div class="type shape">
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+              <div class="line"></div>
+            </div>
+          </div>
+
+
+          <div class="layer main mainLeft">
+            <div class="envelopes">
+              <div class="envelopeCover in">
+                <!--img src="images/page4/envelope_cover_in.png"/-->
+              </div>
+              <!--img class="envelopeIn" src="images/page4/envelope_in.png"/-->
+
+              <div class="letterWrapper">
+                <div class="letter">
+                  <div class="letterBackground">
+                    <img src="images/page4/post.jpg"/>
+
+                    <div class="shape"></div>
+                  </div>
+                  <div class="letterContent">
+                    <div class="dearBoyCoy handwrittenFont">Dear Wi-Jungle...</div>
+                    <div class="lineWrapper mailNameContainer handwrittenFont">
+                      <div class="line">
+                        <div class="text">My name is&nbsp;</div>
+                        <div class="text textFillWidth">
+                          <div class="textContentWrapper">
+                            <input class="handwrittenFont" spellcheck="false" type="text" name="name" value=""/>
+                            <div class="underline"></div><div class="exclamationMark"><img src="images/page4/exclamation_mark.png"/></div>
+                          </div>
+                        </div>
+                        <div class="text">, u can mail</div>
+                      </div>
+                    </div>
+                    <div class="lineWrapper mailFromContainer handwrittenFont">
+                      <div class="line">
+                        <div class="text">me back at&nbsp;</div>
+                        <div class="text textFillWidth">
+                          <div class="textContentWrapper">
+                            <input class="handwrittenFont" spellcheck="false" type="text" name="name" value="" />
+                            <div class="underline"></div><div class="exclamationMark"><img src="images/page4/exclamation_mark.png"/></div>
+                          </div>
+                        </div>
+                        <div class="text">. I would like to:</div>
+                      </div>
+                    </div>
+                    <div class="mailContentContainer handwrittenFont">
+                      <textarea class="handwrittenFont" spellcheck="false" name="content" maxlength="219"></textarea>
+
+                      <div class="underline"></div><div class="exclamationMark"><img src="images/page4/exclamation_mark.png"/></div>
+                      <br/>
+
+                      <div class="underline"></div>
+                    </div>
+                  </div>
+                  <div class="letterForeground">
+                    <div class="mailSendWrapper centerText">
+                      <div class="mailContainer mailSendContainer">
+                        <button><span class="text">SEND</span><img src="images/arrow_white.png"/>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="letterSending letterStatus centerText">
+               <span class="info handwrittenFont">
+                 Sending
+               </span>
+              </div>
+              <div class="letterSent letterStatus centerText">
+               <span class="info handwrittenFont">
+               You have just made<br/>
+               a first step to better future ;)
+               </span>
+                <br/>
+
+                <div class="linkifyForm goBack">
+                  <span class="text">Go back</span>
+                 <span class="image">
+                   <img class="out" src="images/page4/go_back_green.png"/><img class="over"
+                                                                               src="images/page4/go_back_white.png"/>
+                 </span>
+                </div>
+              </div>
+              <div class="letterError letterStatus centerText">
+               <span class="info handwrittenFont">
+                 Sorry. World is cruel.<br/>
+                 We could't connect to our server. :(
+               </span>
+                <br/>
+
+                <div class="linkifyForm goBack">
+                  <span class="text">Try again</span>
+                 <span class="image">
+                         <img class="out" src="images/page4/go_back_green.png"/><img class="over"
+                                                                                     src="images/page4/go_back_white.png"/>
+                 </span>
+                </div>
+              </div>
+              <div class="envelopeOut">
+                <!--img class="envelopeOutTop" src="images/page4/envelope_out_top.png"/-->
+                <!--img class="envelopeOutBottom" src="images/page4/envelope_out_bottom.png"/-->
+              </div>
+              <!--                 <div class="envelopeCover out"> -->
+              <!--                   <img src="images/page4/envelope_cover_out.png" /> -->
+              <!--                 </div> -->
+            </div>
+            <img class="getInTouch" alt="get in touch" src="images/page4/getintouch1.png"/>
+          </div>
+
+          <div class="layer main mainRight">
+            <div class="header">
+              Contact
+            </div>
+            <div class="text">
+              We are open for providing you advertisement. Feel free to drop us a line or send your brief.
+            </div>
+            <div class="iconText iconTextMargin">
+              <a href="mailto:hello@Wi-Jungle.com">
+                <div class="icon iconEmailHello"></div>
+               <span class="emailHello linkify">
+                 <span class="text">911@wijungle.com</span>
+               </span>
+              </a>
+            </div>
+            <div class="iconText iconTextMargin">
+              <div class="icon iconPhone"></div>
+              +91 144 - 6621519
+            </div>
+            <div class="iconText iconTextMargin">
+              <div class="icon iconLocation"></div>
+			  <a href="https://www.google.co.in/maps/place/HttpCart/@26.871623,75.775792,15z/data=!4m6!1m3!3m2!1s0x0:0x331ad953b8732957!2sHttpCart!3m1!1s0x0:0x331ad953b8732957">
+			  
+              Jaipur, India</a>
+            </div>
+            <div class="header">
+              Social networks
+            </div>
+            <div class="text">
+              Follow us to be always up to date.
+            </div>
+            <div class="group">
+             <div class="iconText iconTextRelative1">
+                <a href="https://www.facebook.com/wiijungle" target="_blank">
+                 <div class="icon iconFacebook"></div>
+                 <span class="facebook linkify">
+                   <span class="text">Facebook</span>
+                 </span>
+               </a>
+             </div>
+             <div class="iconText iconTextRelative2">
+                <a href="https://www.linkedin.com/company/httpcart-com?trk=prof-following-company-logo" target="_blank">
+                  <div class="icon iconLinkedIn"></div>
+                  <span class="linkedIn linkify">
+                    <span class="text">LinkedIn</span>
+                  </span>
+               </a>
+             </div>
+            </div>
+            <div class="group">
+              <div class="iconText iconTextRelative1">
+                <a href="https://plus.google.com/118235766861464995649/about?hl=en&gl=in"
+                   target="_blank">
+                  <div class="icon iconGooglePlus"></div>
+                  <span class="googlePlus linkify">
+                    <span class="text">Google+</span>
+                  </span>
+                </a>
+              </div>
+              <div class="iconText iconTextRelative2">
+                <a href="https://twitter.com" target="_blank">
+                  <div class="icon iconTwitter"></div>
+                  <span class="twitter linkify">
+                    <span class="text">Twitter</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="layer mainBottom">
+        <div class="pageCenter">
+          <div class="octopus"></div>
+        </div>
+
+        <footer>
+          <div class="pageCenter darker">
+		  <img src="images/page4/city.svg">
+            <!--div class="wrapperTable">
+              <div class="wrapperRow">
+
+                 <div class="wrapperCell wrapperLeft">
+                  <span>All rights reserved</span>
+                  <span>©2013 Wi-Jungle</span>
+                  <span>Android is restricted trademark of
+                    <a href="http://www.google.com/" target="_blank">
+                      <span class="lighter linkify">
+                        <span class="text">Google Inc.</span>
+                      </span>
+                    </a>
+                  </span>
+                </div>
+
+                <div class="wrapperCell wrapperCenter">
+                </div>
+
+                <div class="wrapperCell wrapperRight">
+                  <div class="tweet">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://Wi-Jungle.com" data-via="BoyCoyMobile">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="../platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                  </div>
+
+                  <div class="fbLike fb-like" data-href="http://www.facebook.com/BoyCoyMobile" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="verdana"></div>
+
+                  <div class="plusOne">
+                    <div class="g-plusone" data-size="medium"></div>
+                    <script type="text/javascript">
+                      (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = '../apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                      })();
+                    </script>
+                  </div>
+                </div>
+
+              </div>
+            </div-->
+          </div>
+        </footer>
+      </div>
+
+    </div>
+
+    <div class="streacher"></div>
+
+<script>
+$(function() {
+    $('#box0).dialog( { modal:true, resizable:false } ).parent().find('.ui-dialog-titlebar-close').hide();
+	
+	for (var i = 0; i < 2; i++) {
+        (function(i) {
+            $( "#elem"+i ).mouseover(function() {
+                $( "#box"+i ).dialog( "open" );
+            });
+            
+            $( "#elem"+i ).mouseout(function() {
+                $( "#box"+i ).dialog( "close" );
+            });
+        })(i);
+	}
+});
+
+</script>
+  </body>
+
+<!-- Mirrored from Wi-Jungle.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Dec 2014 13:00:38 GMT -->
+</html>
